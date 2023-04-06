@@ -1,0 +1,40 @@
+.googleheader{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+.index{
+    text-align: right;
+}
+.searchinput{
+    
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 40%;
+    padding: 15px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: silver;
+
+}
+input:hover{
+    border-style: solid;
+    border-color: silver;
+    box-shadow: 0 2px 8px -7px #000;
+}
+.serachbutton{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    border-color: blue;
+    border-radius: 8px;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+}
